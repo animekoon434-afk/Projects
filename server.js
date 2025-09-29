@@ -48,7 +48,6 @@ const server =  http.createServer((req, res) => {
             }
         });
     } else {
-        // Custom 404 page
         fs.readFile(path.join(__dirname, '404.html'), (err, data) => {
             if (err) {
                 res.writeHead(404, { 'Content-Type': 'text/plain' });
