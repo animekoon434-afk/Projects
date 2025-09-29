@@ -14,8 +14,8 @@ This project is a basic web server built using Node.js's `http` and `fs` modules
 ## Steps to Run Locally from GitHub
 1. Clone the repository:
 	```sh
-	git clone https://github.com/animekoon434-afk/node.js.git
-	cd node.js/exercise
+	git clone https://github.com/animekoon434-afk/Projects.git
+	cd Projects/exercise
 	```
 2. Make sure you have [Node.js](https://nodejs.org/) installed.
 3. Start the server:
