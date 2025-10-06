@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-gray-900 text-white font-sans;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+/* small tweaks for compact controls */
+input, select, button {
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+/* nicer shadow for cards */
+.shadow-sm { box-shadow: 0 4px 10px rgba(3,7,18,0.6); }
+
+/* Slightly lighter hover on cards */
+.hover\:bg-gray-750:hover { background-color: #20242a; }
